@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/tan5460/YJBaseSDK_Extension.git", :tag => "#{spec.version}" }
   
   spec.ios.deployment_target = '9.0'
-  spec.source_files = 'Classes/**'
+  spec.source_files = 'YJBaseSDK_Extension/Classes/**'
 
 
 
