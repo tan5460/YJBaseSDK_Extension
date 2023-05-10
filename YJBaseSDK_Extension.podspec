@@ -1,11 +1,11 @@
 #开发、更新公有库操作步骤
 # 1、修改源代码
 # 2、修改.podspec文件。 版本号、文件资源路径等
-# 3、验证本地库: pod lib lint YJPublic_Base.podspec --allow-warnings
+# 3、验证本地库: pod lib lint YJBaseSDK_Extension.podspec --allow-warnings
 # 4、提交代码
 # 5、打版本tag
-# 6、验证线上库: pod spec lint YJPublic_Base.podspec --allow-warnings
-# 7、推送.podsepc到Cocoapods: pod trunk push YJPublic_Base.podspec --allow-warnings
+# 6、验证线上库: pod spec lint YJBaseSDK_Extension.podspec --allow-warnings
+# 7、推送.podsepc到Cocoapods: pod trunk push YJBaseSDK_Extension.podspec --allow-warnings
 
 
 Pod::Spec.new do |spec|
